@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp"
+    android:background="#F7F5F0">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="90dp"/>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:contentDescription="Logo de Gestión Apícola"
+        android:layout_marginBottom="22dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión Apicol"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:textColor="#2F3A32"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Administración y control apícola"
+        android:textSize="15sp"
+        android:textColor="#747474"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="45dp"/>
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Usuario"
+        android:textColor="#252525"
+        android:textColorHint="#747474"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:backgroundTint="#B7B4AC"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Contraseña"
+        android:textColor="#252525"
+        android:textColorHint="#747474"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:backgroundTint="#B7B4AC"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Ingresar"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2F3A32"/>
+
+</LinearLayout>

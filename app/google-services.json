@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17564268158",
+    "project_id": "gestion-de-apicultura-y-colmen",
+    "storage_bucket": "gestion-de-apicultura-y-colmen.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17564268158:android:8ba296c517c12510570a2f",
+        "android_client_info": {
+          "package_name": "com.barbara.apiculturaycolmena"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdCZuXiowd0chG8HD676X62dHBZUHkkr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

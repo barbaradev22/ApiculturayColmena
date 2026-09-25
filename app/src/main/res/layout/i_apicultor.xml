@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:layout_marginBottom="12dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtNombreApicultor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apicultor"
+        android:textColor="#2F3A32"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTelefonoApicultor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Teléfono"
+        android:textColor="#747474"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtCorreoApicultor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Correo"
+        android:textColor="#747474"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtEspecialidadApicultor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Especialidad"
+        android:textColor="#747474"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditarApicultor"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:text="Editar"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:backgroundTint="#2F3A32" />
+
+        <Button
+            android:id="@+id/btnEliminarApicultor"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="Eliminar"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:backgroundTint="#8A4A4A" />
+
+    </LinearLayout>
+
+</LinearLayout>
